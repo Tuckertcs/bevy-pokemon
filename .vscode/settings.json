@@ -1,0 +1,18 @@
+{
+	"files.exclude": {},
+	"editor.insertSpaces": false,
+	"editor.detectIndentation": false,
+	"editor.formatOnPaste": true,
+	"editor.formatOnSave": true,
+	"editor.formatOnType": true,
+	"editor.useTabStops": false,
+	"editor.stickyTabStops": true,
+	"editor.tabSize": 4,
+	"[rust]": {
+		"editor.defaultFormatter": "rust-lang.rust-analyzer",
+	},
+	"[toml]": {},
+	"[json][jsonl][jsonc]": {
+		"editor.defaultFormatter": "vscode.json-language-features",
+	},
+}
