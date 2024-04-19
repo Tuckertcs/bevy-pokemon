@@ -1,8 +1,16 @@
 [package]
 name = "bevy-pokemon"
 version = "0.1.0"
-edition = "2024"
+edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
+[profile.dev]
+opt-level = 1
+
+[profile.dev.package."*"]
+opt-level = 3
+
 [dependencies]
+syn = { version = "1.0.109", features = ["full"] }
+bevy = { version = "0.6.1", features = ["dynamic"] }
